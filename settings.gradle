@@ -54,3 +54,7 @@ settings.gradle.projectsLoaded {
 		}
 	}
 }
+
+include 'spring-self-test'
+findProject(':spring-self-test')?.name = 'selftest'
+
